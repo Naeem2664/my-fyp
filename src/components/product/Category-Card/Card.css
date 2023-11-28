@@ -1,0 +1,14 @@
+.card {
+  transition: 0.2s; /* Animation */
+  margin: 0 auto;
+  border-radius: 39px;
+  background: #d4d4d4;
+  box-shadow: -12px -12px 23px #dadada, 12px 12px 23px #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-radius: 39px;
+  background: #e2e2e2;
+  box-shadow: -12px -12px 23px #dadada, 12px 12px 23px #ffffff;
+}
