@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-fyp/static/css/main.9c16aaed.css",
+    "main.js": "/my-fyp/static/js/main.0d5eb6f8.js",
+    "static/js/787.7d1fd1dd.chunk.js": "/my-fyp/static/js/787.7d1fd1dd.chunk.js",
+    "static/media/banner1.png": "/my-fyp/static/media/banner1.28ca118d1542eaa5c552.png",
+    "static/media/banner2.png": "/my-fyp/static/media/banner2.092fd4ff24aa869dbe06.png",
+    "static/media/banner3.png": "/my-fyp/static/media/banner3.6dc3718021b566d3af48.png",
+    "static/media/banner5.png": "/my-fyp/static/media/banner5.b44fa887c47dc0518dfe.png",
+    "static/media/banner4.png": "/my-fyp/static/media/banner4.604133730bb8992c78ce.png",
+    "static/media/men_category.jpg": "/my-fyp/static/media/men_category.13e810b89320da9f2e65.jpg",
+    "static/media/logo1.png": "/my-fyp/static/media/logo1.81eddf9f5cf147940b90.png",
+    "static/media/logo2.png": "/my-fyp/static/media/logo2.ba0690d2dd46fc0bec83.png",
+    "static/media/women_category.avif": "/my-fyp/static/media/women_category.5925fa3ee32f4f85c293.avif",
+    "index.html": "/my-fyp/index.html",
+    "main.9c16aaed.css.map": "/my-fyp/static/css/main.9c16aaed.css.map",
+    "main.0d5eb6f8.js.map": "/my-fyp/static/js/main.0d5eb6f8.js.map",
+    "787.7d1fd1dd.chunk.js.map": "/my-fyp/static/js/787.7d1fd1dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c16aaed.css",
+    "static/js/main.0d5eb6f8.js"
+  ]
+}
