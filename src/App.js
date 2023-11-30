@@ -13,7 +13,6 @@ function App() {
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/cart"  element={<Cart />} />
-        <Route path="/"  element={<Home />} />
       </Routes>
         <App_Footer />
     </Routers>
