@@ -4,7 +4,7 @@ import Top_Menu from "../src/layout/menus/Top_Menu";
 import App_Footer from "./layout/footer/Footer";
 import Home from "./pages/home/Home";
 import Cart from "./pages/cart-page/Cart";
-import { BrowserRouter as Routers,Routes, Route } from "react-router-dom";
+import { HashRouter as Routers,Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
