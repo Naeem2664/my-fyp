@@ -12,6 +12,7 @@ import { IoCartSharp } from "react-icons/io5";
 import { VscOrganization } from "react-icons/vsc";
 import { useState } from "react";
 import { CgProfile } from "react-icons/cg";
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -36,6 +37,8 @@ function Navbar() {
     <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <Link to='/'>
+         
           <Typography
             variant="h6"
             noWrap
@@ -53,6 +56,7 @@ function Navbar() {
           >
             QuirkCart
           </Typography>
+          </Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -100,6 +104,7 @@ function Navbar() {
               </MenuItem>
             </Menu>
           </Box>
+          <Link to="/">
           <Typography
             variant="h5"
             noWrap
@@ -118,6 +123,7 @@ function Navbar() {
           >
             QuirkCart
           </Typography>
+          </Link>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <MenuItem>
               <Typography textAlign="center">Everything</Typography>
@@ -139,7 +145,9 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Cart">
               <MenuItem>
+              <Link to="/cart">
                 <IoCartSharp />
+                </Link>
               </MenuItem>
             </Tooltip>
           </Box>
