@@ -1,0 +1,17 @@
+.hover-effect-button{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: none;
+    border:solid white 2px;
+}
+.hover-effect-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(163, 163, 163);
+}
+.simple-btn{
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+}

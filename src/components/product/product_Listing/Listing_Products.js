@@ -1,16 +1,16 @@
 import React from "react";
-import "./FeaturedStyle.css";
+import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { IoCartSharp } from "react-icons/io5";
 
-function App() {
+function Listing_Products({title}) {
   return (
     <div>
       <div className="section">
         <div className="container">
           <div className="row justify-content-center section-heading">
             <div className="col-lg-6 text-center">
-              <h3 className="h2 mt-2">Featured</h3>
+              <h3 className="h2 mt-2 mb-5">{title}</h3>
             </div>
           </div>
           <div className="row g-3 g-lg-4">
@@ -33,7 +33,7 @@ function App() {
                 </div>
                 <div className="product-card-info">
                   <h6 className="product-title">
-                    <a href="#">Full Rim Aviator Eyeglasses</a>
+                    <a>Full Rim Aviator Eyeglasses</a>
                   </h6>
                   <div className="product-price">
                     <span className="text-primary">
@@ -316,4 +316,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Listing_Products;

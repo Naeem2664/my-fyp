@@ -34,8 +34,8 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="sticky">
-      <Container maxWidth="xl">
+    <AppBar position="fixed" className="bg-info text-dark">
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Link to='/'>
          
@@ -93,9 +93,10 @@ function Navbar() {
               <MenuItem>
                 <Typography textAlign="center">Everything</Typography>
               </MenuItem>
-              <MenuItem>
+              <Link to="/mens"><MenuItem>
                 <Typography textAlign="center">Mens</Typography>
-              </MenuItem>
+              </MenuItem></Link>
+              
               <MenuItem>
                 <Typography textAlign="center">Womens</Typography>
               </MenuItem>

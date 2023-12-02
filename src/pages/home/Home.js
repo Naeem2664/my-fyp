@@ -4,13 +4,15 @@ import Card from "../../components/product/Category-Card/Card";
 import { Men_Category, Women_Category } from "../../assets/images/images";
 import Services from "../../components/common/services/Services";
 import Banner from "../../components/common/Middle-Banner/Banner";
-import Featured_Products from "../../components/product/productListing/FeaturedProducts/Featured_Products";
-import Latest_Products from "../../components/product/productListing/LatestProducts/Latest_Products";
+import Listing_Products from "../../components/product/product_Listing/Listing_Products";
 
 const Home = () => {
   return (
     <>
-      <Header />
+    
+    <Header />
+      
+          <Services />
       <div className="container">
         <div className="row">
           <h3 className="text-center mt-5">Categories</h3>
@@ -27,9 +29,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-            <Featured_Products/>
-            <Latest_Products/>
-          <Services />
+            <Listing_Products title="Featured"/>
+            <Listing_Products title="Latest Collection"/>
     </>
   );
 };
