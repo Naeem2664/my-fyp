@@ -4,7 +4,7 @@ import Category from '../category_page/Category'
 const Men = () => {
   return (
     <>
-    <Category/>
+    <Category></Category>
     </>
   )
 }

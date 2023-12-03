@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Routers>
-    <Top_Menu />
+    <Top_Menu/>
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/cart"  element={<Cart />} />

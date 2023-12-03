@@ -34,7 +34,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="fixed" className="bg-info text-dark">
+    <AppBar position="sticky" className="bg-info text-dark">
       <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Link to='/'>
